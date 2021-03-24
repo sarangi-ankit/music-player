@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+body{
+    background-color: black;
+}
+h1{
+    color:cornsilk;
+    text-align: center;
+    font-size: 1.9rem;
+    margin:30px 0
+}
+.container{
+    height:550px;
+    width:90%;
+    border:solid black;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    
+    
+
+}
+.song{
+    width:30%;
+    height:160px;
+    border:1px solid red;
+    cursor:pointer;
+    border:none;
+    border-radius: 12px;
+}
+.a{
+    background-image: url("https://i.ytimg.com/vi/Fwy4fPoInH4/maxresdefault.jpg");
+    background-position: center;
+}
+.b{
+    background-image: url("https://www.teahub.io/photos/full/105-1054627_musical-background.jpg");
+    background-position: center;
+}
+.c{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvmV4w1GLgAZ0ET6ENUq-QI4uTJ_Ggs0vGxQ&usqp=CAU");
+    background-position: center; 
+}
+.d{
+    background-image: url("https://i.pinimg.com/originals/a0/1f/e8/a01fe86135b4a3c1333fb828fd015db3.jpg");
+    background-position: center;
+}
+.e{
+    background-image: url("https://image.shutterstock.com/image-illustration/3d-illustration-musical-notes-signs-260nw-761313844.jpg");
+    background-position:center;
+}
+.f{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK-TsYXoXrYcdzqnRvhTSZjagofCyGz2mm7g&usqp=CAU");
+    background-position: center;
+}
+.g{
+    background-image: url("https://previews.123rf.com/images/ponomarenko13/ponomarenko131508/ponomarenko13150800121/43675486-abstract-music-background-headphones-and-line-.jpg");
+    background-position: center;
+}
+.h{
+    background-image: url("https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8&w=1000&q=80");
+    background-position-y: center;
+}
+.i{
+    background-image: url("https://wallpapercave.com/wp/BJ2gNMU.jpg");
+    background-position: center;
+}
